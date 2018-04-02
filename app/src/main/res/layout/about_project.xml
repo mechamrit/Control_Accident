@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tDriving License System\n\n  The main aim of our project is to design a &quot;Driving License Chip Reader&quot; which would act as login to the driving system, thus enabling government to have an eye over the driver driving the respective car.\n Our project is basically integrated with four modules ie:\n 1. DL chip Reader\n 2. Face Detection System\n 3. GPS Technology\n 4. Alcohol Sensor\n\n  Working of the integrated system is described below:\n\n  1) DL Chip Reader:\n    a) This part of our system gives access to the user who has his/her driving license to start the car, without this the car wouldn't start.\n b) This will integrate all the sensors thus providing excellent user interface as well as give power to the sensors to integrate between them and use them efficiently.\n c) Each System has a UID so as to distinguish each vehicle.\n d) It can send anonymous statistics as well as location to police in cas of rule breaking and also when SOS is clicked so that medical can reach him/her as soon as possible.\n\n  2) Face Detection Analyser:\n  a) This sensor will get activated as soon as the dl chip reader system starts and it gives power to the face detection sensor which would         analyse the face of the driver and matches it with the photo on the driving license, 'incase' if the photo doesn't matches the respected it	    would alarm the traffic police that the user driving the car is not valid and it should be catched and it could be tracked by gps too.\n b) The working of this sensor would is recognised by the eye blinking of the driver too, it basically determines whether the driver is drunk         or not.\n c) It can us your existing infrastructure, existing cameras, and capture devices will work with no problems.\n\n  3) Alcohol Detector/ Breathlyser:\n  a) This sensor will also get activated as soon as the dl chip reader starts and gives power to the alcohol detection sensor which would smell      analyse the contents of breath of the driver.\n b) If  it founds that the driver is drunk it would send an sms to the traffic police and his/her echallan would be cut in his/her dl account.\n c) In this system we will use a MQ-3 gas sensor which detects the alcohol contents in the air, if this founds above set ppm value then it will      the host controller by pulling the digital output pin to High and onboard status led glow.\n\n  4) Introduction of gps:\n  a) In our project gps plays a vital role to track the vehicle and moreover provides efficient use of technology.\n b) Here we priovide is integrated technology which provides a super smart system and even at low cost which helps us to keep monitoring       activities of vehicles.\n c) In gps we also need to tie up with any company which should provide internet connection for working of gps at a nominal price and gps should be compulsory for all 4 wheel vehicles.\n    Working of gps:\n  *    The GPS will be connected to main system thus       integrating with other sensors thus creating a stable       and user friendly environment.\n *    If over speeding on a certain lane it will give a       warning to tolerate limit and than send DL details        along with photo from face detection system so that        can take necessary action against him\n *    Give app based UI to detect car location and other        driving license detail inserted in car etc. to owner. \n\n        Conclusion :\n Our main motto is to avoid road accidents as much as we can. This super smart system might help in a lot of ways: 1) It brings to an end the under-age driving which would cause less teenage accidents. 2) No drink and drive case would be there. 3) Reckless driving would come to an end.  Thank You.  Team - A7A " />
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

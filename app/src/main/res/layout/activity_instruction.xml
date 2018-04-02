@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_purple"
+    tools:context="com.example.user.drowsinessdetection.Instruction">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="App to provide the best solution for the accidents :-\n (under iSafe)\n  1.Sleep detector :- To prevent driver from sleeping\n 2. Speed Detector   :- To detect whether the person is in speed limit\n 3. Alcohol Detector :- To prevent Drink and Drive Cases\n 4. A driving License reader to authenticate person\n This is a integrated solution for barricading accidents.\n\n"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="10dp"
+        android:text="Sleep Detector"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/speedD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Speed Detection" />
+
+    <Button
+        android:id="@+id/alco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Alcohol Detector" />
+
+    <Button
+        android:id="@+id/dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/speedD"
+        android:layout_alignTop="@+id/alco"
+        android:background="@android:color/holo_blue_bright"
+        android:text="DL Detector" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/project"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/dl"
+        android:layout_alignTop="@+id/project"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/alco"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="About Project" />
+
+
+</RelativeLayout>
+
